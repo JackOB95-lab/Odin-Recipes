@@ -1,6 +1,17 @@
 color and background color, font family size and weight, text align, img height width, 
 
-  }
+uo {
+    display: inline;
+}
+
+header {
+    border-radius: 50px;
+    width: 800px;
+    margin: 0px 300px 0px 300px;
+    align-content: center;
+    border: 10px solid black;
+} 
+}
 ul {
     line-height: 20px;
 }
@@ -38,10 +49,9 @@ img {
     }
 
 body {
-    min-height: 200px;
-    height: 100vh;
     position: relative;
     background-color: #0ff;
+    background: linear-gradient(green, white, orange);
   }
 
   #cubed {
@@ -116,4 +126,30 @@ button {
 }
 .yb {
     background-color: yellow;
+}
+div {
+    width: 100px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 5px solid black;
+    margin: 5px 5px -20px 5px ;
+}
+
+.container {
+    height: auto;
+    width: 225px;
+    background-color: white;
+    border: 5px dotted green;
+}
+
+.container2 {
+    height: auto;
+    width: 150px;
+    padding: 0px;
+    background-color: white;
+    border: 5px dotted green;
+}
+h2 {
+    border: 2px solid black;
+    padding: 0px;
 }
